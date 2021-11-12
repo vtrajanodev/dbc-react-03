@@ -1,0 +1,12 @@
+.textContent {
+    background-color: #eee;
+    padding: 2rem;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+}
+p {
+    text-align: justify;
+}
+p:last-child {
+    margin-top: 2rem;
+}

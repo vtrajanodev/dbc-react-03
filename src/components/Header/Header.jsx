@@ -3,10 +3,10 @@ import { Menu } from '../Menu/Menu';
 import styles from './Header.module.css'
 
 
-export const Header = ({ styledLink }) => {
+export const Header = () => {
     return (
         <div className={styles.flex}>
-            <Menu styledLink={styledLink}/>
+            <Menu />
             <Logo />
         </div>
     );

@@ -5,14 +5,14 @@ export const Menu = ({ styledLink }) => {
     return (
         <>
             <ul className={styles.flex}>
-                <li>
-                    <Link className={styledLink} to="/">Home</Link>
+                <li>    
+                    <Link className="link" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link className={styledLink} to="/">Sobre</Link>
+                    <Link className="link" to="/sobre">Sobre</Link>
                 </li>
                 <li>
-                    <Link className={styledLink} to="/">Contato</Link>
+                    <Link className="link" to="/Contato">Contato</Link>
                 </li>
             </ul>
         </>

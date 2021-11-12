@@ -1,0 +1,19 @@
+h2 {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    border-radius: .3rem;  
+    width: 800px;
+    margin-bottom: 3rem;
+}
+
+iframe:hover {
+    outline: 2px solid black;
+}

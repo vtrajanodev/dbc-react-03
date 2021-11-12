@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.adress {
+    text-align: center;
+}
+
+iframe {
+    border-radius: .3rem;
+    width: 600px;
+    height: 400px;
+}
