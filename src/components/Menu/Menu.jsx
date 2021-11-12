@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './Menu.module.css'
 
-export const Menu = ({ styledLink }) => {
+export const Menu = () => {
     return (
         <>
             <ul className={styles.flex}>
